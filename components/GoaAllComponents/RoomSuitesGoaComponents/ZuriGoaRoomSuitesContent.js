@@ -30,7 +30,7 @@ const ZuriGoaRoomSuitesContent = () => {
                         <br />
                         Complimentary breakfast | Mini-bar | Premium toiletries | Hair dryer | Complimentary shoeshine service |
                         <br />
-                        Bath tub
+                        Bath tub (Executive suite and Zuri suite)
                     </p>
                 </Col>
             </Container>
