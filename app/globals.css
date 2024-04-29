@@ -930,3 +930,22 @@ h2.text-center.sectionheading.underline-offer {
   .whatsapp-hover-show:hover {
     opacity: 1;
   } */
+
+
+  /* custom whatsapp */
+
+.custom-whatsapp-chat {
+    margin-bottom: 60px !important;
+    /* background: white; */
+    width: 22%;
+    margin-right: 30px;
+}
+
+@media(max-width:767px) {
+    .custom-whatsapp-chat {
+        width: 80%;
+        margin-bottom: 30px !important;
+        margin-right: 0px;
+    }
+}
+
