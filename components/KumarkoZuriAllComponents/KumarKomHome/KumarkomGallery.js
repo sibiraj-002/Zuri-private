@@ -135,23 +135,25 @@ const KumarkomGallery = () => {
                 </Modal.Footer>
             </Modal>
 
+
+            <Col className='d-flex flex-column align-items-center py-4 p-2'>
+                <Col md={2} xs={6} >
+                    <Image src='/kumarkom/kumarkom-home/tc_white_winner_gif_2024.gif' alt='' fluid className='shadow p-2 rounded-circle' />
+                </Col>
+            </Col>
+
             <Col className='d-flex flex-column align-items-center py-4 p-2'>
                 <Col md={6} className='text-center'>
                     <Image src='/kumarkom/kumarkom-home/Gallery/zuri_hotel_fssai_certificate.jpeg' alt='' fluid />
                 </Col>
             </Col>
 
-            <Col className='d-flex flex-column align-items-center py-4 p-2'>
-                <Col md={2} xs={6} >
-                    <Image src='/kumarkom/kumarkom-home/tc_green_winner-gif_2024.gif' alt='' fluid />
-                </Col>
-            </Col>
 
-            <Col className='d-flex flex-column align-items-center py-4 p-2'>
+            {/* <Col className='d-flex flex-column align-items-center py-4 p-2'>
                 <Col md={6} >
                     <Image src='/kumarkom/kumarkom-home/tc_thank_you_social.png' alt='' fluid />
                 </Col>
-            </Col>
+            </Col> */}
         </Container >
     );
 };
