@@ -116,6 +116,13 @@ const ContactUsTap = () => {
                                         Kottayam, Kerala 686 563, INDIA
                                     </p>
                                     {/* Temporary contact is updated */}
+                                    <p className='mb-0'>
+                                        Tel:<a className="text-decoration-none text-black-50" href='tel: 9946105513' >+91 99461 05513  </a>
+                                    </p>
+
+                                    <p>
+                                        Fax:<a className="text-decoration-none text-black-50" href='fax:4812527282' >+91 481 252 7282 </a>
+                                    </p>
 
                                     <p>
                                         <a
