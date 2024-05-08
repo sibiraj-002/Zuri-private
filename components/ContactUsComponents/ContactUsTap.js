@@ -115,7 +115,7 @@ const ContactUsTap = () => {
                                         V 235 A1 to A54, Karottukayal, Kumarakom, <br />
                                         Kottayam, Kerala 686 563, INDIA
                                     </p>
-
+                                    {/* Temporary contact is updated */}
                                     <p className='mb-0'>
                                         Tel:<a className="text-decoration-none text-black-50" href='tel: 9946105513' >+91 99461 05513  </a>
                                     </p>
