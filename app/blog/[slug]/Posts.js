@@ -7,10 +7,25 @@ import config from '../../../config'
 import '../../../components/StyledComponents'
 import Link from 'next/link';
 
+import { usePathname, useRouter } from 'next/navigation';
+
+
 const Posts = ({ slug }) => {
+
+
+    const router = usePathname();
+
+    const [fullUrl, setFullUrl] = useState('');
+
+    useEffect(() => {
+        const url = window.location.href;
+        setFullUrl(url);
+    }, []);
     const [data, setData] = useState([])
 
     const siteUrl = config.apiUrl;
+
+    // alert(router);
 
     const FetchPost = async () => {
         const URL_Fetchpost = `${siteUrl}/wp-json/wp/v2/posts?_embed&slug=${slug}`;
@@ -45,6 +60,47 @@ const Posts = ({ slug }) => {
                     }
                 `}
             </style>
+            {/* custom_meta_description */}
+
+            <head>
+                {data.map((post) => (
+                    <div key={post.id}>
+                        <meta charSet="utf-8" />
+                        <title>{post.acf.custom_meta_title}</title>
+                        <meta name="description" content={post.acf.custom_meta_description} />
+                        <meta name="viewport" content="width=device-width, initial-scale=1" />
+                        <meta name="robots" content="index, follow" />
+                        <link rel="icon" href="/images/cac_favicon-150x150.png" />
+                        <link rel="canonical" href={fullUrl} />
+                        <meta property="og:locale" content="en_US" />
+                        <meta property="og:type" content="website" />
+                        <meta property="og:title" content={post.acf.custom_meta_title} />
+                        <meta property="og:description" content={post.acf.custom_meta_description} />
+                        {/* <meta property="og:url" content={path} /> */}
+                        <meta property="og:site_name" content={post.acf.custom_meta_title} />
+                        <meta property="og:image" content="" />
+                        <meta name="twitter:card" content="summary_large_image" />
+
+                        <script
+                            type="application/ld+json"
+                            dangerouslySetInnerHTML={{
+                                __html: JSON.stringify({
+                                    "@context": "https://schema.org/",
+                                    "@type": "WebSite",
+                                    "name": "thezurihotels",
+                                    // "url": path,
+                                    "potentialAction": {
+                                        "@type": "SearchAction",
+                                        // "target": `${path}{search_term_string}`,
+                                        "query-input": "required name=search_term_string"
+                                    }
+                                })
+                            }}
+                        />
+                    </div>
+                ))}
+            </head>
+
             <Container className='custom-kumarkom-menu-container'>
                 <Row>
                     {data.map((items) => (
