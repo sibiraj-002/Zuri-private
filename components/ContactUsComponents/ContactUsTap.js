@@ -117,7 +117,8 @@ const ContactUsTap = () => {
                                     </p>
                                     {/* Temporary contact is updated */}
                                     <p className='mb-0'>
-                                        Tel:<a className="text-decoration-none text-black-50" href='tel: 9946105513' >+91 99461 05513  </a>
+                                        {/* Tel:<a className="text-decoration-none text-black-50" href='tel: 9946105513' >+91 99461 05513  </a> */}
+                                        Tel:<a className="text-decoration-none text-black-50" href='tel:4812527272' >+91 481 252 7272</a>
                                     </p>
 
                                     <p>
