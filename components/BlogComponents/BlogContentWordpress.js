@@ -199,6 +199,7 @@ const BlogContentWordpress = () => {
                                                     <Link
                                                         href={`/blog/${post.slug}`}
                                                         className='text-decoration-none'
+                                                        target='_blank'
                                                     >
                                                         <p>
                                                             READ MORE
