@@ -196,20 +196,6 @@ const BlogContentWordpress = () => {
                                                     />
                                                 </Col>
                                                 <Col className='d-flex flex-column justify-content-end border border-3 border-top-0 border-start-0 border-end-0'>
-                                                    <Link
-                                                        href={`/blog/${post.slug}`}
-                                                        className='text-decoration-none'
-                                                        target='_blank'
-                                                    >
-                                                        <p>
-                                                            READ MORE
-                                                            <i
-                                                                class="bi bi-arrow-right text-purple"
-                                                            >
-                                                            </i>
-                                                        </p>
-
-                                                    </Link>
                                                 </Col>
                                             </Col>
 
