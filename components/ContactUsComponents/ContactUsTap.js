@@ -189,7 +189,7 @@ const ContactUsTap = () => {
                                     <p>
                                         Tel:<a className="text-decoration-none text-black" href='tel:' >+91 848 490 6204 </a>
                                     </p>
-                                    <p>
+                                    {/* <p>
                                         Mr. Vikram Mishra
                                     </p>
                                     <p className='mb-0'>
@@ -197,7 +197,7 @@ const ContactUsTap = () => {
                                     </p>
                                     <p>
                                         Tel:<a className="text-decoration-none text-black" href='tel:8956152715' >+91 895 615 2715 </a>
-                                    </p>
+                                    </p> */}
                                 </Col>
 
                                 <Col className='text-center'>
