@@ -294,9 +294,8 @@ const BlogContentWordpress = () => {
 
                                                 <p
                                                     className='font15px text-purple text-uppercase'
-                                                >
-                                                    {post.title.rendered}
-                                                </p>
+                                                    dangerouslySetInnerHTML={{ __html: post.title.rendered }}
+                                                />
                                                 <p
                                                     className="post-content font15px"
                                                     dangerouslySetInnerHTML={{ __html: post.content.rendered }}
