@@ -15,7 +15,6 @@ const MonsoonPackageManager = () => {
             <Col className='text-center pb-3'>
                 <h3 className='text-custom-grey'>
                     Monsoon Mania AP Package
-
                 </h3>
             </Col>
 

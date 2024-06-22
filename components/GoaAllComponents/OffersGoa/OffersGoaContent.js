@@ -244,7 +244,7 @@ const OffersGoaContent = () => {
                             />
                         </Col>
                         <p>Package Valid from 1st July 2024 till 30th Sept 2024</p>
-                        <Link href="/beach-resorts-in-goa/offers/summer-getaway-package-on-map/"
+                        <Link href="/beach-resorts-in-goa/offers/monsoon-mania-map-package/"
                             className='bg-black text-center rounded-circle text-decoration-none p-1'>
                             <p
                                 className='m-0 lh-sm text-white btn-circle'
