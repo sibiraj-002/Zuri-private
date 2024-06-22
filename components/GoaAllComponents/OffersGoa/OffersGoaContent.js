@@ -99,9 +99,11 @@ const OffersGoaContent = () => {
                                 className='rounded-circle kumarkom-image-overlay'
                             />
                         </Col>
-                    </Col><Col className='d-flex flex-row mt-5'>
+                    </Col>
+
+                    <Col className='d-flex flex-row mt-5'>
                         <Col className='d-flex flex-wrap align-content-center justify-content-end p-3' md={4}>
-                            <Image src='/all_package_img/winter_package_map_thumb.jpg' alt='' roundedCircle width={180} height={180}
+                            <Image src='/all_package_img/monson_ap_thumb.png' alt='' roundedCircle width={180} height={180}
                                 className='rounded-circle kumarkom-image-overlay'
                             />
                         </Col>
@@ -150,14 +152,16 @@ const OffersGoaContent = () => {
                             </Col>
                         </Col>
                         <Col className='d-flex flex-wrap align-content-center '>
-                            <Image src='/all_package_img/winter_package_map_thumb.jpg' alt='' roundedCircle width={180} height={180}
+                            <Image src='/all_package_img/monson_maniya_map.png' alt='' roundedCircle width={180} height={180}
                                 className='rounded-circle kumarkom-image-overlay'
                             />
                         </Col>
                     </Col>
-
                 </Col>
+
+
             </Container>
+
 
             {/* Mobile View */}
             <Container className='p-0 d-flex flex-column d-md-none ' >
@@ -212,7 +216,7 @@ const OffersGoaContent = () => {
                             </h6>
                         </Col>
                         <Col className='d-flex flex-wrap align-content-center justify-content-end p-3'>
-                            <Image src='/all_package_img/winter_package_map_thumb.jpg' alt='' roundedCircle width={180} height={180}
+                            <Image src='/all_package_img/monson_ap_thumb.png' alt='' roundedCircle width={180} height={180}
                                 className='rounded-circle kumarkom-image-overlay'
                             />
                         </Col>
@@ -235,7 +239,7 @@ const OffersGoaContent = () => {
                             </h6>
                         </Col>
                         <Col className='d-flex flex-wrap align-content-center justify-content-end p-3'>
-                            <Image src='/all_package_img/winter_package_map_thumb.jpg' alt='' roundedCircle width={180} height={180}
+                            <Image src='/all_package_img/monson_maniya_map.png' alt='' roundedCircle width={180} height={180}
                                 className='rounded-circle kumarkom-image-overlay'
                             />
                         </Col>
@@ -249,6 +253,7 @@ const OffersGoaContent = () => {
                             </p>
                         </Link>
                     </Col>
+
 
                 </Col>
             </Container >
