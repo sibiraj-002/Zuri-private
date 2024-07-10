@@ -5,7 +5,7 @@ import SiteMapComponents from '../../components/SiteMapComponents'
 const page = () => {
     return (
         <>
-            <SiteMapComponents />
+            <SiteMapComponents /> 
         </>
     )
 }
