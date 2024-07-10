@@ -64,7 +64,7 @@ const GallaryKumarkomAlbum = () => {
       <Container className="mt-5">
         <Row>
           <Col lg={2}>
-            <Row className="d-flex flex-column gap-2">
+            <Row className="d-flex flex-column gap-lg-2">
               {[
                 "All",
                 "Room & Suites",
@@ -83,7 +83,7 @@ const GallaryKumarkomAlbum = () => {
                       selectedCategory === category ? "#80027f" : "#6c6e71",
                   }}
                 >
-                  <h6>{category}</h6>
+                  <h6 className="mb-0">{category}</h6>
                 </Button>
               ))}
             </Row>
